@@ -1,9 +1,9 @@
-import Image from "next/image";
+import SliderSection from "./components/SliderSection";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello landing page</h1>
+      <SliderSection />
     </div>
   );
 }

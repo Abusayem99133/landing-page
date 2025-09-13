@@ -31,7 +31,7 @@ const HeroSection = () => {
         </p>
         <p>and launched in just 5 days.</p>
 
-        <div class="form-container">
+        <div className="form-container">
           <form>
             <div className="input-group">
               <Image
@@ -59,7 +59,7 @@ const HeroSection = () => {
               <input type="tel" placeholder="Phone Number" />
             </div>
 
-            <button type="submit" class="submit-btn">
+            <button type="submit" className="submit-btn">
               Get my high-converting landing page →
             </button>
           </form>
