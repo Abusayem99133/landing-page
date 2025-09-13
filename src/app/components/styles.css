@@ -1,21 +1,157 @@
 .parent{
-    
+    height: 990px;
     justify-items: center;
 }
 .logo-parent{
-    width: 876px;
+    width: 816px;
     height: 252px;
     top: -101px;
     left:312px;
-    border: 2px solid tomato;
     align-items: center;
     justify-items: center;
-    padding: 12px;
+    padding: 12px; 
 }
 .logo{
 
     width: 120px;
     height: 27px;
     top: 24px;
-    left:660px
+    left:660px;
 }
+.trusted-parent{
+    justify-items: center;
+  height: 556px;
+}
+.trusted-children{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 12px;
+    border-top: 1px solid slategray;
+    border-radius:999px ;
+    padding:8px 16px 8px 16px ;
+    gap: 8px;
+    background-color: #192420;
+    width: 334px;
+    height: 34px;
+}
+.parent h3{
+    color: #B2B2B2;
+    font-size: 12px;
+    font-family:"fontFamily-General Sans"
+ 
+}
+.parent h1{
+    font-family: "manrope";
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 72px;
+letter-spacing: -4px;
+}
+.parent p {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    align-items: center;
+}
+.trusted-logo{
+color: #45a78e;
+width: 15px;
+height: 15px;
+top: 0.25px;
+left: 0.75px;
+}
+
+.form-container {
+  background: #151E1B;
+ padding: 36px;
+  border-radius: 8px;
+  border:1px solid #2A3C36;
+  margin-top: 132px;
+  width: 794px;
+  height: 204px;
+  box-shadow: 0 5px 15px rgba(0, 255, 153, 0.395);
+  gap: 24px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.input-group {
+  position: relative;
+  flex: 1;
+  
+}
+
+.input-group .icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #00ff99;
+  pointer-events: none;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 15px 12px 40px; /* left padding increased for icon */
+  border: 1px solid #1f3d32;
+  border-radius: 6px;
+  background: #0f1f1a;
+  color: #fff;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #00ff99;
+  box-shadow: 0 0 8px rgba(0, 255, 153, 0.5);
+}
+
+
+.submit-btn {
+  flex: 1 1 100%;
+  background: linear-gradient(90deg, #00ff99, #00e68a);
+  color: #000;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 255, 153, 0.4);
+}
+
+.features-parent{
+  width: 523px;
+  height: 18px;
+
+}
+.features {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  font-size: 14px;
+  color: #B2B2B2;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* image আর text এর মাঝখানে spacing */
+}
+
+
