@@ -1,0 +1,21 @@
+.parent{
+    
+    justify-items: center;
+}
+.logo-parent{
+    width: 876px;
+    height: 252px;
+    top: -101px;
+    left:312px;
+    border: 2px solid tomato;
+    align-items: center;
+    justify-items: center;
+    padding: 12px;
+}
+.logo{
+
+    width: 120px;
+    height: 27px;
+    top: 24px;
+    left:660px
+}
