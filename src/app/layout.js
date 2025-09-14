@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import HeroSection from "./components/HeroSection";
+import TrustUs from "./components/TrustUs";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <div>
           <HeroSection />
         </div>
+
         {children}
       </body>
     </html>

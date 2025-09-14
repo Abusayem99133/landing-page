@@ -45,6 +45,7 @@ const HeroSection = () => {
             <div className="input-group">
               <Image
                 src={email}
+                alt="email"
                 className="absolute mt-4 ml-3 w-[16px] h-[16px]"
               />
               <input type="email" placeholder="Email Address" />

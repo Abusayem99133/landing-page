@@ -2,21 +2,29 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import slide1 from "../../../public/slider/Size=Default.png";
+import slide1 from "../../../public/slider/Size=Default (3).png";
+import slide2 from "../../../public/slider/Size=Default.png";
+
+import slide3 from "../../../public/slider/Size=Default (1).png";
+import slide4 from "../../../public/slider/Size=Default (2).png";
+import slide5 from "../../../public/slider/Size=Default (3).png";
+
 const SliderSection = () => {
   return (
     <section>
-      <div className="h-screen flex items-center justify-center bg-gray-900">
-        <div className="overflow-hidden w-full max-w-5xl">
+      <div className=" flex items-center justify-center bg-[#000000]">
+        <div className="overflow-hidden w-full ">
           <motion.div
             className="flex gap-6"
             initial={{ x: "100%" }}
             animate={{ x: "-100%" }}
-            transition={{ repeat: Infinity, duration: 390, ease: "linear" }}
+            transition={{ repeat: Infinity, duration: 80, ease: "linear" }}
           >
-            {/* দুইবার map করলাম যেন লুপের মতো দেখায় */}
-
             <Image src={slide1} alt="slider1" />
+            <Image src={slide2} alt="slider2" />
+            <Image src={slide3} alt="slider3" />
+            <Image src={slide4} alt="slider4" />
+            <Image src={slide5} alt="slider5" />
           </motion.div>
         </div>
       </div>
