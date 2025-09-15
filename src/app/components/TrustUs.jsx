@@ -63,8 +63,6 @@ const TrustUs = () => {
           </p>
         </div>
       </div>
-
-      <h1>hello trust</h1>
     </div>
   );
 };
