@@ -170,3 +170,19 @@ form {
   display: flex;
 }
 /* Slider section Style end */
+
+/* trusted us start  */
+.heading{
+    font-family: "manrope";
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 72px;
+letter-spacing: -4px;
+}
+.subHeading {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    align-items: center;
+}
+/* trusted us end  */
