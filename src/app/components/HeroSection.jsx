@@ -8,7 +8,6 @@ import user from "../../../public/logo/User.png";
 import lockIcon from "../../../public/logo/Vector.png";
 import moneyIcon from "../../../public/logo/Vector (1).png";
 import starIcon from "../../../public/logo/Vector (2).png";
-import SectionTitle from "./SectionTitle";
 const HeroSection = () => {
   return (
     <div className="bg-[#1FFFA5]/20  parent ">
@@ -24,7 +23,7 @@ const HeroSection = () => {
           />
           <h3>Trusted by 30+ startups & entrepreneurs worldwide</h3>
         </div>
-        <SectionTitle heading={"Strategic LandingPages That"} subHeading=" " />
+
         <h1>Strategic LandingPages That</h1>
         <h1>Convert Form Just $200</h1>
         <p>
