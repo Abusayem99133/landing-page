@@ -191,9 +191,11 @@ letter-spacing: -4px;
 grid-template-columns: 2fr 2fr;
 gap: 40px;
 padding: 20px;
+align-items: center;
+justify-items: center;
 }
 .trustUs-children{
-  
+  width: 440px;
 
 }
 /* trusted us end  */
