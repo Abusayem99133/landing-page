@@ -185,4 +185,16 @@ letter-spacing: -4px;
     letter-spacing: 0px;
     align-items: center;
 }
+
+.trustUs-parent{
+  display: grid;
+grid-template-columns: 2fr 2fr;
+gap: 40px;
+padding: 20px;
+}
+.trustUs-children{
+  
+
+}
 /* trusted us end  */
+
